@@ -42,6 +42,9 @@ body {
 	transition: 0.2s;
 }
 .navbar {
+	position: fixed;
+	top: 0;
+	z-index: 9;
 	margin-top: 10px;
 	border-style: solid;
 	border-color: grey;
@@ -49,6 +52,7 @@ body {
 	margin-inline: 200px;
 	backdrop-filter: blur(10px);
 	font-family: paragraf;
+	position: sticky;
 }
 .okvir2 {
 	margin-top: 10px;
@@ -102,16 +106,73 @@ body {
 	color: white;
 	text-shadow: 3.5px 2px black;
 }
-.uskoro {
+.zaomeni {
 	margin-top: 10px;
 	border-style: solid;
 	border-radius: 10px;
 	border-color: grey;
 	margin-inline: 200px;
+	padding: 20px;
 	backdrop-filter: blur(10px);
 	font-family: paragraf;
 	color: white;
-	font-size: 100px;
-	-webkit-text-stroke: 2.5px black;
-	text-shadow: 4px 4px black;
+	font-size: 35px;
+	text-shadow: 3.5px 2px black;
+}
+.zanovo {
+	margin-top: 10px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: grey;
+	margin-inline: 200px;
+	padding: 20px;
+	backdrop-filter: blur(10px);
+	font-family: paragraf;
+	color: white;
+	font-size: 25px;
+	text-shadow: 3.5px 2px black;
+}
+#vutra {
+	font-family: paragraf;
+	color: white;
+	font-size: 60px;
+	text-shadow: 3.5px 2px black;
+}
+.zainsta {
+	margin-top: 10px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: grey;
+	margin-inline: 200px;
+	padding: 20px;
+	backdrop-filter: blur(10px);
+	font-family: paragraf;
+	color: white;
+	font-size: 35px;
+	text-shadow: 3.5px 2px black;
+}
+.zaforum {
+	margin-top: 10px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: grey;
+	margin-inline: 200px;
+	padding: 20px;
+	backdrop-filter: blur(10px);
+	font-family: paragraf;
+	color: white;
+	font-size: 35px;
+	text-shadow: 3.5px 2px black;
+}
+#rizla {
+	font-family: paragraf;
+	color: white;
+	font-size: 60px;
+	text-shadow: 3.5px 2px black;
+}
+#skank {
+	font-family: paragraf;
+	color: white;
+	font-size: 60px;
+	text-shadow: 3.5px 2px black;
 }
