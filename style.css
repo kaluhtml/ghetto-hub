@@ -176,3 +176,30 @@ body {
 	font-size: 60px;
 	text-shadow: 3.5px 2px black;
 }
+.futer{
+	margin-top: 10px;
+	border-style: solid;
+	border-radius: 10px;
+	border-color: grey;
+	margin-inline: 200px;
+	padding: 20px;
+	backdrop-filter: blur(10px);
+	font-family: paragraf;
+	color: white;
+	font-size: 20px;
+	text-shadow: 3.5px 2px black;
+}
+#mejl {
+
+}
+a:link {
+	color: hotpink;
+	text-decoration: none;
+}
+a:visited {
+  color: lightpink;
+}
+a:hover {
+	transition: 1s;
+	color: white;
+}
